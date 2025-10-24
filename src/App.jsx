@@ -19,7 +19,7 @@ const App = () => {
     );
   }
   return (
-    <div className="w-screen h-screen p-5 overflow-x-hidden">
+    <div className="w-screen h-screen py-5 overflow-x-hidden">
       <Tours tours={tours} removeTour={removeTour} />
     </div>
   );
